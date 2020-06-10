@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+	int choice;
+	printf("\t\t\t FAST FOOD CORNER \n");
+	printf("Enter a number between 1 to 5= ");                                        //User can input number
+	scanf("%d",&choice);                                                              //to open a menu
+	switch(choice)
+	{
+		case 1: printf("Food items - Pizza \nPrice - Rs 150 ");
+	    	break;
+		case 2: printf("Food items - Chowmein \nPrice - Rs 60");
+			break;
+		case 3: printf("Food items - Pasta \nPrice - Rs 65 ");
+			break;
+		case 4: printf("Food items - Honey chilli potato \nPrice - Rs 80 ");
+			break;
+		case 5: printf("Food items - Spring roll \nPrice - Rs 30 ");
+			break;
+		default: printf("INVALID CHOICE");	                                           //In case if number is 
+	}                                                                                //not in menu
+}
